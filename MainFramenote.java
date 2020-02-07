@@ -56,7 +56,7 @@ public class MainFramenote extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 500);
         setLayout(new BorderLayout());
-        icon = new ImageIcon("C:\\Users\\calvi\\OneDrive\\Documents\\Coding\\Apps\\Java\\Swing\\Noted\\Img\\icon32x32.png");
+        icon = new ImageIcon("Calvin-Coding/Noted/icon32x32.png"); //You may have to edit this to the path of the icon is you download it to your computer.
         setIconImage(icon.getImage());
         //tb.setLayout(new FlowLayout());
         User = JOptionPane.showInputDialog(null, "What is your Username: ");
